@@ -47,10 +47,9 @@ export default function App() {
     <div className="app">
       <header className="top">
         <div>
-          <h1>Cap × Waldo Spaces</h1>
+          <h1>Cap ♥ Waldo</h1>
           <p>
-            Every recorded @waldoforrealz Space that @capstiller reposted —
-            tap the image to open the post.
+            Every @waldoforrealz post that @capstiller reposted — tap the image to open Cap’s post.
           </p>
         </div>
         {profiles && (
@@ -92,7 +91,7 @@ export default function App() {
       {error && <p className="status">Couldn’t load data: {error}</p>}
       {!error && posts === null && <p className="status">Loading…</p>}
       {!error && posts && posts.length === 0 && (
-        <p className="empty">No matching Space reposts found yet.</p>
+        <p className="empty">No Waldo reposts found yet.</p>
       )}
       {posts && posts.length > 0 && (
         <div className="grid">
