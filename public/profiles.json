@@ -1,0 +1,17 @@
+{
+  "capstiller": {
+    "handle": "capstiller",
+    "url": "https://x.com/capstiller",
+    "pfp": "./assets/pfp-capstiller.jpg"
+  },
+  "waldoforrealz": {
+    "handle": "waldoforrealz",
+    "url": "https://x.com/waldoforrealz",
+    "pfp": "./assets/pfp-waldoforrealz.jpg"
+  },
+  "GEARonbase": {
+    "handle": "GEARonbase",
+    "url": "https://x.com/GEARonbase",
+    "pfp": "./assets/pfp-GEARonbase.jpg"
+  }
+}
